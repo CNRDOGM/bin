@@ -1,0 +1,33 @@
+definitions: senterica.txt
+3766 profiles
+sourced from: https://pubmlst.org/data/profiles/senterica.txt
+
+locus aroC
+aroC.tfa
+Sourced from https://pubmlst.org/data/alleles/senterica/aroC.tfa
+
+locus dnaN
+dnaN.tfa
+Sourced from https://pubmlst.org/data/alleles/senterica/dnaN.tfa
+
+locus hemD
+hemD.tfa
+Sourced from https://pubmlst.org/data/alleles/senterica/hemD.tfa
+
+locus hisD
+hisD.tfa
+Sourced from https://pubmlst.org/data/alleles/senterica/hisD.tfa
+
+locus purE
+purE.tfa
+Sourced from https://pubmlst.org/data/alleles/senterica/purE.tfa
+
+locus sucA
+sucA.tfa
+Sourced from https://pubmlst.org/data/alleles/senterica/sucA.tfa
+
+locus thrA
+thrA.tfa
+Sourced from https://pubmlst.org/data/alleles/senterica/thrA.tfa
+
+all loci: Salmonella_enterica.fasta
