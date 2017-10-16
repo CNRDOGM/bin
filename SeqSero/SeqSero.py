@@ -17,8 +17,9 @@ def main():
   if len(sys.argv)==1:
     os.system(dirpath+"/SeqSero.py -h")
   else:
-    request_id = time.strftime("%m_%d_%Y_%H_%M_%S", time.localtime())
-    request_id += str(random.randint(1, 10000000))
+    dataset=args.i
+    request_id = time.strftime("%d_%m_%Y_", time.localtime())
+    request_id += dataset[0].split("_")[1]
     make_dir="SeqSero_result_"+request_id
     os.system("mkdir "+make_dir)
     os.system("cp -rf "+dirpath+"/database "+make_dir)
