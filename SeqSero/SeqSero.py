@@ -19,7 +19,7 @@ def main():
   else:
     dataset=args.i
     request_id = time.strftime("%d_%m_%Y_", time.localtime())
-    request_id += dataset[0].split("_")[1]
+    request_id += dataset[0].split("_")[0]
     make_dir="SeqSero_result_"+request_id
     os.system("mkdir "+make_dir)
     os.system("cp -rf "+dirpath+"/database "+make_dir)
